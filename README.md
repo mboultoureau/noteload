@@ -1,68 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Noteload
 
-## Available Scripts
+Noteload est une application web pour consulter les notes de l'Université de Rennes 1. **Cette application n'est en aucun cas liée à l'Université de Rennes 1.**
 
-In the project directory, you can run:
+## Qu'est-ce que Noteload ?
 
-### `npm start`
+**Problématique :** l'application a été créée suite au manque d'alerte lors de la mise en ligne d'une nouvelle note.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Solution :** Noteload répond à ce besoin en fournissant un service simple, sécurisé et rapide. Par exemple, lors de la mise en ligne d'une nouvelle note, Noteload envoie un courriel. Noteload va plus loin en proposant des fonctionnalités manquantes sur le site original comme la moyenne générale ou des statistiques tout en gardant l'anonymat.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Contributions
 
-### `npm test`
+Les contributions aussi minimes soient-elles sont les bienvenues. Le projet a été créé et est maintenu par [Mathis Boultoureau](https://github.com/mboultoureau) et [Ronan Renoux](https://github.com/ronanren).
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+L'installation se fait en deux étapes : d'une part les fonctions lambda et d'autre part l'application web.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation des fonctions lambda
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Si vous avez un compte Amazon Web Services, vous pouvez mettre en ligne les fonctions en suivant le tutoriel sur la [documentation d'AWS Lambda](https://docs.aws.amazon.com/fr_fr/lambda/latest/dg/with-s3-example.html).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Sinon, vous pouvez opter pour une implémentation plus simple en utilisant Netlify. Créer un nouveau site depuis le projet Git, et indiquer le dossier où se situe les fonctions comme indiqué dans la [documentation](https://docs.netlify.com/functions/configure-and-deploy/).
 
-### `npm run eject`
+### Installation de l'application web
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Cette application requiert [Node.js](https://nodejs.org) pour fonctionner. Téléchargez ensuite le dépôt et placez-vous dedans. Vous pouvez ensuite installer les dépendances avec ```npm install```. Pour exécuter le serveur Web, écrivez simplement ```npm start```.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Si vous souhaitez déployer le site en ligne, nous vous recommandons [Netlify](https://www.netlify.com) qui est simple d'utilisation et gratuit pour un usage raisonnable.
