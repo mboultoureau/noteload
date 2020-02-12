@@ -1,0 +1,46 @@
+.TextField {
+    position: relative;
+}
+
+div {
+    height: 2em;
+    margin: 20px 0;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 1.4em;
+    height: 1em;
+    outline: none;
+    width: 100%;
+    padding-bottom: 5px;
+    transition: border 0.2s;
+}
+
+input:focus {
+    border-bottom: 3px solid #6c63ff;
+}
+
+input::placeholder {
+    color: transparent;
+}
+
+input:placeholder-shown ~ label {
+    font-size: 1em;
+    top: 0px;
+    cursor: text;
+}
+
+input:focus ~ label {
+    top: -15px;
+    font-size: 0.8em;
+}
+
+label {
+    position: absolute;
+    top: -15px;
+    font-size: 0.8em;
+    color: #6c63ff;
+    transition: 0.2s font-size, 0.2s top;
+}

@@ -1,0 +1,24 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+form .TextField {
+    width: 80%;
+    // width: 90%;
+    max-width: 600px;
+}
+
+form .Button {
+    margin: 20px 0;
+}

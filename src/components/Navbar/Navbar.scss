@@ -1,0 +1,39 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 56px;
+    background: #fff;
+    border-bottom: 1px solid #eceff1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    z-index: 10;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+}
+
+nav div {
+    margin: 0 10px;
+    width: fit-content;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 20px;
+    color: #000;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+nav .logo {
+    color: #6c63ff;
+    font-weight: bold;
+    font-size: 1.3em;
+}

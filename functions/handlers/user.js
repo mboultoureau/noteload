@@ -9,7 +9,6 @@ exports.signup = (request, response) => {
     const newUser = {
         email: request.body.email,
         password: request.body.password,
-        confirmPassword: request.body.confirmPassword,
         username: request.body.username
     };
 

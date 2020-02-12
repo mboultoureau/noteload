@@ -22,10 +22,6 @@ exports.validateSignup = user => {
         errors.password = `Vous devez fournir un mot de passe non vide.`;
     }
 
-    if (user.password !== user.confirmPassword) {
-        errors.confirmPassword = `Les mots de passe ne correspondent pas.`;
-    }
-
     // Nom d'utilisateur
     if (isEmpty(user.username)) {
         errors.username = `Vous devez fournir un nom d'utilisateur non vide.`;

@@ -14,16 +14,4 @@ Les contributions aussi minimes soient-elles sont les bienvenues. Le projet a é
 
 ## Installation
 
-L'installation se fait en deux étapes : d'une part les fonctions lambda et d'autre part l'application web.
-
-### Installation des fonctions lambda
-
-Si vous avez un compte Amazon Web Services, vous pouvez mettre en ligne les fonctions en suivant le tutoriel sur la [documentation d'AWS Lambda](https://docs.aws.amazon.com/fr_fr/lambda/latest/dg/with-s3-example.html).
-
-Sinon, vous pouvez opter pour une implémentation plus simple en utilisant Netlify. Créer un nouveau site depuis le projet Git, et indiquer le dossier où se situe les fonctions comme indiqué dans la [documentation](https://docs.netlify.com/functions/configure-and-deploy/).
-
-### Installation de l'application web
-
-Cette application requiert [Node.js](https://nodejs.org) pour fonctionner. Téléchargez ensuite le dépôt et placez-vous dedans. Vous pouvez ensuite installer les dépendances avec ```npm install```. Pour exécuter le serveur Web, écrivez simplement ```npm start```.
-
-Si vous souhaitez déployer le site en ligne, nous vous recommandons [Netlify](https://www.netlify.com) qui est simple d'utilisation et gratuit pour un usage raisonnable.
+Noteload utilise essentiellement React et Firebase.
